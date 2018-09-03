@@ -1,0 +1,10 @@
+Tomcat + MySQL 
+环境：
+1. Tomcat/lib 目录下 加入mysql-connector-java-5.1.39-bin.jar
+2. 项目导入 tomcat/lib 目录下的servlet-api.jar
+3. 项目导入 mysql-connector-java-5.1.39-bin.jar
+
+运行：
+1. 运行 src/Init/initDatabase.java - main()    //初始化数据库   (建库，建表)
+2. 启动Tomcat 
+3. 谷歌浏览器：http://localhost:8080
